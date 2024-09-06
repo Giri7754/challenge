@@ -1,0 +1,95 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+.whole{
+    width:70%;
+
+}
+.container{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr ;
+   
+}
+
+
+.image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.customer img{
+    width: 100%;
+    border-radius: 20px;
+}
+.last img{
+    width: 75%;
+    border-radius: 20px;
+}
+
+.but>button{
+    margin-top: 45px;
+    width: 100px;
+    height:40px;
+    color: rgb(95, 5, 95) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #47701b;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-left:4em;
+}
+button:hover{
+    background-color: #0f4f15;
+    cursor: pointer;
+}
+
+.cont{
+    font-size: large;
+    text-align: left;
+    font-size: 25px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+.first1{
+    line-height: 1.1;
+    font-size: 44px;
+    letter-spacing: -1px;
+    margin-bottom: 36px;
+
+}
+.second1{
+    font-size: larger;
+}
+.third{
+    background-color: #47701b;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+}
+.demo{
+    width: 92%;
+    padding-block: 2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+.demo p{
+    font-style: italic;
+    font-size: larger;
+}
+.demo h3{
+    font-size: 20px;
+}
+.last{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
